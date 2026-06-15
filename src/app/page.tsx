@@ -15,6 +15,7 @@ import ContactSection from '@/components/sections/ContactSection'
 import Footer from '@/components/sections/Footer'
 import FloatingWhatsApp from '@/components/sections/FloatingWhatsApp'
 import FreeDemoModal from '@/components/sections/FreeDemoModal'
+import ScrollReveal from '@/components/ui/ScrollReveal'
 
 export default function Home() {
   const [isDemoOpen, setIsDemoOpen] = useState(false)
@@ -24,15 +25,42 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection onOpenDemo={() => setIsDemoOpen(true)} />
-        <WhyChooseUs />
-        <CoursesOverview />
-        <AboutMauryaSir />
-        <SuccessMetrics />
-        <Testimonials />
-        <CoursesDetail />
-        <ResultsSection />
-        <GallerySection />
-        <ContactSection />
+        
+        <ScrollReveal>
+          <WhyChooseUs />
+        </ScrollReveal>
+        
+        <ScrollReveal delay={0.2}>
+          <CoursesOverview />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <AboutMauryaSir />
+        </ScrollReveal>
+        
+        <ScrollReveal delay={0.1}>
+          <SuccessMetrics />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <Testimonials />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <CoursesDetail />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <ResultsSection />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <GallerySection />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <ContactSection />
+        </ScrollReveal>
       </main>
       <Footer />
       <FloatingWhatsApp />
