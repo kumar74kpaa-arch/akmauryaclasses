@@ -57,14 +57,18 @@ export default function Header() {
             }}
             className="flex items-center gap-2 group"
           >
-            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-deepred rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
-              <GraduationCap className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
+            <div className="w-10 h-10 sm:w-14 sm:h-14 overflow-hidden group-hover:scale-105 transition-transform">
+              <img 
+                src="/logoakk.png" 
+                alt="A.K. Maurya Classes Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-lg font-bold text-navy leading-tight font-[family-name:var(--font-poppins)]">
+              <h1 className="text-xl font-bold text-navy leading-tight font-[family-name:var(--font-poppins)]">
                 A.K. Maurya
               </h1>
-              <p className="text-xs text-deepred font-medium font-[family-name:var(--font-poppins)]">
+              <p className="text-sm text-deepred font-semibold font-[family-name:var(--font-poppins)] uppercase tracking-wider">
                 Classes
               </p>
             </div>
@@ -116,9 +120,7 @@ export default function Header() {
                 <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                 <div className="flex items-center justify-between p-4 border-b">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 bg-deepred rounded-lg flex items-center justify-center">
-                      <GraduationCap className="w-5 h-5 text-white" />
-                    </div>
+                    <img src="/logoakk.png" alt="Logo" className="w-8 h-8 object-contain" />
                     <span className="font-bold text-navy font-[family-name:var(--font-poppins)]">
                       A.K. Maurya Classes
                     </span>

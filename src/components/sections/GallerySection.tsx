@@ -7,34 +7,34 @@ import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog'
 
 const galleryImages = [
   {
-    src: '/images/gallery-interior.png',
-    alt: 'Classroom Interior - A.K. Maurya Classes',
-    category: 'Interior',
+    src: '/1.jpeg',
+    alt: 'Success Celebrations - A.K. Maurya Classes',
+    category: 'Achievements',
   },
   {
-    src: '/images/gallery-exterior.png',
-    alt: 'Institute Exterior - A.K. Maurya Classes',
-    category: 'Exterior',
-  },
-  {
-    src: '/images/hero-classroom.png',
-    alt: 'Teaching Session at A.K. Maurya Classes',
+    src: '/2.jpeg',
+    alt: 'Classroom Environment - A.K. Maurya Classes',
     category: 'Classroom',
   },
   {
-    src: '/images/teacher-portrait.png',
-    alt: 'Maurya Sir Teaching',
-    category: 'Teacher',
+    src: '/3.jpeg',
+    alt: 'Student Excellence - A.K. Maurya Classes',
+    category: 'Results',
   },
   {
-    src: '/images/gallery-interior.png',
-    alt: 'Students Learning at A.K. Maurya Classes',
-    category: 'Students',
+    src: '/4.jpeg',
+    alt: 'Learning Sessions - A.K. Maurya Classes',
+    category: 'Learning',
   },
   {
-    src: '/images/gallery-exterior.png',
-    alt: 'Institute Building - A.K. Maurya Classes',
-    category: 'Exterior',
+    src: '/5.jpeg',
+    alt: 'Institute Facilities - A.K. Maurya Classes',
+    category: 'Facilities',
+  },
+  {
+    src: '/6.jpeg',
+    alt: 'Academic Environment - A.K. Maurya Classes',
+    category: 'Academic',
   },
 ]
 

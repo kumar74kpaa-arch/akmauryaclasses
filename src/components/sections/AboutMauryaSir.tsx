@@ -43,7 +43,7 @@ export default function AboutMauryaSir() {
               <div className="absolute -inset-4 bg-gradient-to-br from-deepred/20 to-navy/20 rounded-2xl rotate-2" />
               <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                 <img
-                  src="/images/teacher-portrait.png"
+                  src="/sir.png"
                   alt="Maurya Sir - Expert Mathematics Teacher"
                   className="w-full h-auto object-cover"
                 />
