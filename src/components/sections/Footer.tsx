@@ -46,7 +46,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 overflow-hidden">
-                <img src="/logoakk.png" alt="Logo" className="w-full h-full object-contain" />
+                <img src="/images/logoakk.png" alt="Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h3 className="text-lg font-bold font-[family-name:var(--font-poppins)]">

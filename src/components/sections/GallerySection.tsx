@@ -7,32 +7,32 @@ import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog'
 
 const galleryImages = [
   {
-    src: '/1.jpeg',
+    src: '/images/1.jpeg',
     alt: 'Success Celebrations - A.K. Maurya Classes',
     category: 'Achievements',
   },
   {
-    src: '/2.jpeg',
+    src: '/images/2.jpeg',
     alt: 'Classroom Environment - A.K. Maurya Classes',
     category: 'Classroom',
   },
   {
-    src: '/3.jpeg',
+    src: '/images/3.jpeg',
     alt: 'Student Excellence - A.K. Maurya Classes',
     category: 'Results',
   },
   {
-    src: '/4.jpeg',
+    src: '/images/4.jpeg',
     alt: 'Learning Sessions - A.K. Maurya Classes',
     category: 'Learning',
   },
   {
-    src: '/5.jpeg',
+    src: '/images/5.jpeg',
     alt: 'Institute Facilities - A.K. Maurya Classes',
     category: 'Facilities',
   },
   {
-    src: '/6.jpeg',
+    src: '/images/6.jpeg',
     alt: 'Academic Environment - A.K. Maurya Classes',
     category: 'Academic',
   },

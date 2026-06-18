@@ -59,7 +59,7 @@ export default function Header() {
           >
             <div className="w-10 h-10 sm:w-14 sm:h-14 overflow-hidden group-hover:scale-105 transition-transform">
               <img 
-                src="/logoakk.png" 
+                src="/images/logoakk.png" 
                 alt="A.K. Maurya Classes Logo" 
                 className="w-full h-full object-contain"
               />
@@ -120,7 +120,7 @@ export default function Header() {
                 <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                 <div className="flex items-center justify-between p-4 border-b">
                   <div className="flex items-center gap-2">
-                    <img src="/logoakk.png" alt="Logo" className="w-8 h-8 object-contain" />
+                    <img src="/images/logoakk.png" alt="Logo" className="w-8 h-8 object-contain" />
                     <span className="font-bold text-navy font-[family-name:var(--font-poppins)]">
                       A.K. Maurya Classes
                     </span>
